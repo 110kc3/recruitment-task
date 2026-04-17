@@ -8,7 +8,7 @@ Handles Istio REGISTRY_ONLY via a ServiceEntry for DB egress.
 ### Azure
 
 - Storage account for Terraform state (update `terraform/backend.tf`)
-- App Registration with client secret for CI
+- App Registration with client secret for CI (Needs to be added as Contributor to each environment RG)
 
 ### GitHub repo
 
