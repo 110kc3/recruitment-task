@@ -1,0 +1,13 @@
+apiVersion: networking.istio.io/v1beta1
+kind: ServiceEntry
+metadata:
+  name: {{ .Release.Name }}-db
+spec:
+  hosts:
+    - {{ .Values.db.host | quote }}
+  location: MESH_EXTERNAL
+  resolution: DNS
+  ports:
+    - number: {{ .Values.db.port }}
+      name: tcp-postgres
+      protocol: TCP

@@ -1,0 +1,8 @@
+location            = "westeurope"
+resource_group_name = "app-stg-rg"
+vnet_name           = "app-stg-vnet"
+db_subnet_name      = "db-subnet"
+dns_zone_id         = "/subscriptions/EDIT_SUB_ID/resourceGroups/EDIT_RG/providers/Microsoft.Network/privateDnsZones/privatelink.sth"
+db_name             = "appdb"
+db_username         = "appadmin"
+tags                = { Tier = "staging" }
