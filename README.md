@@ -26,3 +26,10 @@ File / What to change
 `terraform/backend.tf` / `resource_group_name`, `storage_account_name`, `container_name` 
 
  `terraform/environments/*.tfvars` / `resource_group_name`, `vnet_name`, `db_subnet_name`, `dns_zone_id` 
+
+## Portfolio audit recorded — 2026-11-07
+
+[Findings and feature suggestions](docs/REPO-AUDIT-2026-11-07.md) preserve chat items 25, 28,
+with source evidence and acceptance criteria. This completed slice records documentation
+only; it selects no implementation work and leaves existing tasks and owner blockers
+unchanged. Documentation-push CI verification is pending; see the report.
